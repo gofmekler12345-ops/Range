@@ -36,7 +36,9 @@ function Range(from, to) {
      }
      return fib === 54;
 }
-const res=new Range(1,21)
+const res=new Range(0,21)
+const arr=[...res];
 console.log(Check(0,21))
+console.log(arr)
 
 export {Range,Check}
