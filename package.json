@@ -1,0 +1,19 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "Vika",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@jest/globals": "^30.4.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
